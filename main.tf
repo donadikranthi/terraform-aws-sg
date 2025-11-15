@@ -13,8 +13,7 @@ egress {
 tags = merge(
     var.vpc_tags,{
          Name = "${local.common_name_suffix}-${var.sg_name}" # roboshop-dev-catalogue
-        
-    }
+     }
 
 
 }
